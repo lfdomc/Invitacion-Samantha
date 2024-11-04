@@ -1,8 +1,10 @@
-import './Background.css'
+import './Background.css';
+import mulanImage from './mulan222.png';
+
 export default function Background() {
   return (
     <div className="body">
-      <img src="./src/assets/mulan222.png" className='mulan22' alt="menu" />
+      <img src={mulanImage} className='mulan22' alt="menu" />
       <section className='cuadro1'>
       
       <p className='parrafo'>Los invitamos a celebrar el cumpleaños de:</p>
