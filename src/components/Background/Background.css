@@ -13,7 +13,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center; /* Centra todos los elementos hijos horizontalmente */
-    gap: 2rem; /* Espacio entre los elementos dentro de .body */
+     /* Espacio entre los elementos dentro de .body */
 }
 
 .mulan22 {
@@ -35,6 +35,7 @@
     align-items: center; /* Centra el contenido dentro de .cuadro-dragon */
     justify-content: center; /* Centra el contenido en el eje horizontal */
     max-width: 100%;
+    border: 5rem;
     
 }
 
