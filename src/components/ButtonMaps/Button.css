@@ -3,7 +3,7 @@
     margin: 2rem;
     background-color: #4285F4; /* Color azul de Google */
     color: white;
-    font-size: 1rem;
+    font-size: 100%;
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 5px;
@@ -13,4 +13,19 @@
 
 .maps-button:hover {
     background-color: #357ae8; /* Cambio de color en hover */
+}
+
+@media screen and (max-width: 1412px) {
+    .maps-button {
+        margin: 2rem;
+        background-color: #4285F4; /* Color azul de Google */
+        color: white;
+        font-size: 100%;
+        padding: 0rem 0rem;
+        border: none;
+        border-radius: 5px;
+        width: 50%;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    } 
 }

@@ -1,11 +1,12 @@
 import ButtonComponent from '../ButtonMaps/Button';
 import './Background.css';
 import mulanImage from './image/mulan222.png';
+import dragImage from './image/grillito.png';
 
 export default function Background() {
   return (
     <div className="body">
-      <img src={mulanImage} className='mulan22' alt="menu" />
+      <img src={mulanImage} className='mulan22' alt="mulan" />
 
       <section className='cuadro1'>
       <p className='parrafo'>Los invitamos a celebrar el cumpleaños de:</p>
@@ -16,6 +17,7 @@ export default function Background() {
       <p className='parrafo'> 1 km norte de la iglesia Católica de San José de la 
         Montaña. Heredia Costa Rica</p>
       <ButtonComponent/>
+      <img src={dragImage} className='mulan22' alt="Dragon" />
       
       </section>
     
