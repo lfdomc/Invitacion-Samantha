@@ -45,7 +45,7 @@ html, body {
     margin-right: -90px;
 }
 .dragon{
-    margin-right: -50px;
+    margin-right: -45px;
     max-width: 33%;
     padding-top: 2rem;
 }
@@ -56,7 +56,7 @@ html, body {
 }
 
 .cuadro-dragon {
-    margin-top: -55px;
+    margin-top: -25px;
     display: flex;
     flex-direction: row-reverse; /* Cambia si deseas un layout diferente */
     align-items: center; /* Centra el contenido dentro de .cuadro-dragon */
@@ -68,6 +68,7 @@ html, body {
 
 .logo{
     margin-top: -50px;
+    width: 60%;
 }
 .parrafo {
     width: 100%;
@@ -77,11 +78,11 @@ html, body {
     padding-top: 1rem;
     text-align: center;
 }
-.parrafo4 {
+.parrafo1 {
     width: 100%;
     font-size: 1.8rem;
     font-weight: bold;
-    text-shadow: 1px 1px 2px rgb(196, 132, 132);
+    text-shadow: 1px 1px 6px rgb(255, 255, 255);
     padding-top: 1rem;
     text-align: center;
     
@@ -93,7 +94,7 @@ html, body {
     font-size: 4rem;
     font-weight: bold;
     text-align: center;
-    text-shadow: 1px 1px 2px rgb(196, 132, 132);
+    text-shadow: 1px 1px 2px rgb(248, 248, 248);
     padding-top: 1em;
     -webkit-text-stroke-width: 0.02px;
    -webkit-text-stroke-color: rgb(158, 16, 171);

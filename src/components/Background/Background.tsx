@@ -12,7 +12,7 @@ export default function Background() {
       <section className="body">
       <img src={mulanImage} className='mulan22' alt="mulan" />
       <section className='cuadro1'>
-      <p className='parrafo'>Los invitamos a celebrar el cumpleaños de:</p>
+      <p className='parrafo1'>Los invitamos a celebrar el cumpleaños de:</p>
       <h1 className='title'>Samantha Morúa Madríz</h1>
       <p className='fecha'>08|12|2024</p>
       <p className='parrafo'>De 1:pm a 6:30 pm</p>
