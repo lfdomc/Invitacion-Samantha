@@ -3,8 +3,6 @@ import './Bloque1.css'
 export default function Bloque1() {
   return (
 
-
-
     <div className="body2">
     
     
