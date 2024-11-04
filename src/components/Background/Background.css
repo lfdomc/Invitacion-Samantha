@@ -81,12 +81,20 @@ html, body {
 .parrafo1 {
    
     width: 100%;
-    font-size: 1.0em;
+    font-size: 1.8em;
     font-weight: bold;
     text-shadow: 1px 1px 6px rgb(255, 255, 255);
     padding-top: 1rem;
     text-align: center;
     
+}
+.parrafotext{
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(196, 132, 132);
+    padding-top: 1rem;
+    text-align: center;
 }
 
 .title {
@@ -97,8 +105,9 @@ html, body {
     text-align: center;
     text-shadow: 1px 1px 2px rgb(248, 248, 248);
     padding-top: 1em;
-    -webkit-text-stroke-width: 0.02px;
-   -webkit-text-stroke-color: rgb(158, 16, 171);
+   text-decoration: underline  rgb(234, 106, 204);
+   text-decoration: top  rgb(234, 106, 204);
+   padding-bottom: 1rem;
 }
 
 .fecha {
@@ -108,7 +117,6 @@ html, body {
     text-shadow: 1px 1px 2px rgb(196, 132, 132);
     padding-top: 1rem;
     text-align: center;
-    text-decoration: underline wavy rgb(234, 106, 204);
     padding-bottom: 1rem;
     
    
@@ -126,6 +134,39 @@ html, body {
     .fecha {
         font-size: 1.5rem;
     }
+
+    .parrafo1 {
+   
+        width: 100%;
+        font-size: 1.0em;
+        font-weight: bold;
+        text-shadow: 1px 1px 6px rgb(255, 255, 255);
+        padding-top: 1rem;
+        text-align: center;
+        
+    }
+
+    .fecha {
+        font-weight: bold;
+        width: 100%;
+        font-size: 2.8rem;
+        text-shadow: 1px 1px 2px rgb(196, 132, 132);
+        padding-top: 1rem;
+        text-align: center;
+        padding-bottom: 1rem;
+        
+       
+    }
+    .parrafotext{
+        width: 100%;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgb(196, 132, 132);
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+
 }
 
 @media screen and (max-width: 968px) {
@@ -135,14 +176,30 @@ html, body {
     .parrafo {
         font-size: 1.2rem;
     }
+    .parrafotext{
+        width: 100%;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgb(196, 132, 132);
+        padding-top: 1rem;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .title {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
     .parrafo {
         font-size: 1rem;
         padding-left: 0.5rem;
+    }
+    .parrafotext{
+        width: 100%;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgb(196, 132, 132);
+        padding-top: 1rem;
+        text-align: center;
     }
 }
