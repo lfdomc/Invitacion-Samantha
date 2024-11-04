@@ -1,0 +1,44 @@
+import { useState } from 'react'
+import  './Header.css'
+
+export const Header = () => {
+
+    const [menu, setMenu] = useState(false);
+    const toggleMenu =() =>{
+        setMenu(!menu);
+
+    }
+
+  return (
+    <div >
+        
+        <header className="Header1">
+                <button 
+                    onClick={toggleMenu}
+                    className='Header-button'>
+                    <img src="src\assets\menu-blanco.png" className='Header-svg' alt="menu" />
+
+                </button>
+                <h1 className="Header-h1">
+                <a href="#" className='Header-a'> Fiesta 8 de Diciembre 2024</a>
+                </h1>
+                
+                
+                <nav className={`Header-nav  ${ menu? 'isActive': ''}`} >
+                    <ul className='Header-ul'>
+                        <li className="Header-li"><a href="https://www.google.com/maps?gs_lcrp=EgZ
+                        jaHJvbWUqDQgBEC4YrwEYxwEYgAQyBggAEEUYOTINCAEQLhivARjHARiABDIHCAIQABiABDIICA
+                        MQABgHGB4yCAgEEAAYBxgeMggIBRAAGAcYHjIICAYQABgHGB4yCAgHEAAYBxgeMggICBAAGAcYHj
+                        IGCAkQRRhA0gEINzU1NGoxajeoAgiwAgE&um=1&ie=UTF-8&fb=1&gl=cr&sa=X&geocode=KQvX
+                        UTSw8aCPMaaUvzCEN1g7&daddr=114+Heredia,+Heredia,+Barva" className="Header-a">Dirección</a></li>
+                        <li className="Header-li"><a href="#" className="Header-a">Item 2</a></li>
+                        <li className="Header-li"><a href="#" className="Header-a">Item 3</a></li>
+                       
+                    </ul>
+
+                </nav>
+        </header>
+        
+    </div>
+  )
+}
