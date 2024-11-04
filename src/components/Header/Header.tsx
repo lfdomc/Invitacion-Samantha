@@ -32,8 +32,7 @@ export const Header = () => {
                         MQABgHGB4yCAgEEAAYBxgeMggIBRAAGAcYHjIICAYQABgHGB4yCAgHEAAYBxgeMggICBAAGAcYHj
                         IGCAkQRRhA0gEINzU1NGoxajeoAgiwAgE&um=1&ie=UTF-8&fb=1&gl=cr&sa=X&geocode=KQvX
                         UTSw8aCPMaaUvzCEN1g7&daddr=114+Heredia,+Heredia,+Barva" className="Header-a">Dirección</a></li>
-                        <li className="Header-li"><a href="#" className="Header-a">Item 2</a></li>
-                        <li className="Header-li"><a href="#" className="Header-a">Item 3</a></li>
+                        
                        
                     </ul>
 
