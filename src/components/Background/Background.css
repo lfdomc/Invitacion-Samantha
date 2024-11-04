@@ -90,7 +90,7 @@ html, body {
     font-size: 1.8em;
     font-weight: bold;
     text-shadow: 1px 1px 6px rgb(255, 255, 255);
-    padding-top: 1rem;
+    padding-top: 2rem;
     text-align: center;
     
 }
@@ -177,6 +177,7 @@ html, body {
 @media screen and (max-width: 968px) {
     .title {
         font-size: 2rem;
+        padding-top: 1rem;
     }
     .parrafo {
         font-size: 1.2rem;
@@ -225,4 +226,15 @@ html, body {
         text-align: center;
         padding-bottom: 1rem;
 }
+.parrafo1 {
+   
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    text-shadow: 1px 1px 6px rgb(255, 255, 255);
+    padding-top: 4rem;
+    text-align: center;
+    
+}
+
 }
