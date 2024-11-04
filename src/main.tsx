@@ -9,6 +9,5 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Header/>
     <Background/>
-    <Bloque1/>
   </StrictMode>,
 )

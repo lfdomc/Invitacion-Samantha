@@ -2,7 +2,7 @@
     background-color: black;
     background-image: url("/src/assets/fondo.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,13 +11,14 @@
 }
 
 .mulan22 {
-    max-width: 60%;
+    max-width: 50%;
     padding-top: 2rem;
-    padding-left: 1rem;
+    
 }
 .cuadro1{
     display: flex;
     flex-direction: column;
+    max-width: 40%;
 }
 .parrafo {
     width: 100%;
