@@ -79,8 +79,9 @@ html, body {
     text-align: center;
 }
 .parrafo1 {
+   
     width: 100%;
-    font-size: 1.8rem;
+    font-size: 1.0em;
     font-weight: bold;
     text-shadow: 1px 1px 6px rgb(255, 255, 255);
     padding-top: 1rem;

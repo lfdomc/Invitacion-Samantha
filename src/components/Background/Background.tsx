@@ -16,7 +16,7 @@ export default function Background() {
       <h1 className='title'>Samantha Morúa Madríz</h1>
       <p className='fecha'>08|12|2024</p>
       <p className='parrafo'>De 1:pm a 6:30 pm</p>
-      <p className='parrafo'> V Entertaiment</p>
+      <p className='parrafo'> Dirección: V Entertaiment</p>
       <p className='parrafo'> 1 km norte de la iglesia Católica de San José de la 
         Montaña. Heredia Costa Rica</p>
       </section>
