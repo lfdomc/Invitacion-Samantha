@@ -2,6 +2,7 @@ import { useState } from 'react'
 import  './Header.css'
 import imageMenu from './image/menu-blanco.png'
 
+ 
 export const Header = () => {
 
     const [menu, setMenu] = useState(false);
@@ -20,6 +21,7 @@ export const Header = () => {
                     <img src={imageMenu} className='Header-svg' alt="menu" />
 
                 </button>
+                
                 <h1 className="Header-h1">
                 <a href="#" className='Header-a'> Fiesta 8 de Diciembre 2024</a>
                 </h1>

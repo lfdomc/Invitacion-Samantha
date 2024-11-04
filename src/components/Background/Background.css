@@ -1,24 +1,43 @@
-.body {
+.body-total{
     background-color: black;
     background-image: url("/src/assets/fondo.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+.body {
+    
     background-size: cover;
     display: flex;
     flex-direction: row;
     align-items: center;
-    
-    
+    justify-content: center; /* Centra todos los elementos hijos horizontalmente */
+    gap: 2rem; /* Espacio entre los elementos dentro de .body */
 }
 
 .mulan22 {
     max-width: 50%;
     padding-top: 2rem;
+}
+.dragon{
+    max-width: 33%;
+    padding-top: 2rem;
+}
+.grillo{
+    max-width: 33%;
+    padding-top: 2rem;
+}
+
+.cuadro-dragon {
+    display: flex;
+    flex-direction: row-reverse; /* Cambia si deseas un layout diferente */
+    align-items: center; /* Centra el contenido dentro de .cuadro-dragon */
+    justify-content: center; /* Centra el contenido en el eje horizontal */
+    max-width: 100%;
     
 }
-.cuadro1{
-    display: flex;
-    flex-direction: column;
-    max-width: 40%;
-}
+
 .parrafo {
     width: 100%;
     font-size: 1.8rem;
@@ -30,18 +49,22 @@
 
 .title {
     width: 100%;
-    font-size: 4rem; /* Tamaño de fuente más razonable */
+    font-size: 4rem;
     font-weight: bold;
     text-align: center;
     text-shadow: 1px 1px 2px rgb(196, 132, 132);
     padding: 1rem;
 }
 
-¨.parrafo-link{
-    border-color: black;
-  border-width: 5px;
-  border-style: dashed;
+.fecha {
+    font-weight: bold;
+    width: 100%;
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px rgb(196, 132, 132);
+    padding-top: 1rem;
+    text-align: center;
 }
+
 /* Media Queries */
 @media screen and (max-width: 1412px) {
     .title {
@@ -49,6 +72,9 @@
         padding-bottom: 1rem;
     }
     .parrafo {
+        font-size: 1.5rem;
+    }
+    .fecha {
         font-size: 1.5rem;
     }
 }
