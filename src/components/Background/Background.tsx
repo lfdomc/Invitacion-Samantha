@@ -3,6 +3,7 @@ import './Background.css';
 import mulanImage from './image/mulan33.png';
 import dragoImage from './image/dragon.png'
 import grilloImage from './image/grillo.png'
+import logoImage from './image/nombre.png'
 
 export default function Background() {
   return (
@@ -23,10 +24,11 @@ export default function Background() {
       </section>
       
         <section className='cuadro-dragon'>
-        <img src={grilloImage} className='grillo' alt="mulan" />
+        <img src={grilloImage} className='grillo' alt="grillo" />
         <ButtonComponent/>
-        <img src={dragoImage} className='dragon' alt="mulan" />
+        <img src={dragoImage} className='dragon' alt="dragon" />
         </section>
+        <img src={logoImage} className='dragon' alt="dragon" />
     
     </div>
 
