@@ -53,6 +53,7 @@ html, body {
 }
 
 .cuadro-dragon {
+    margin-top: -55px;
     display: flex;
     flex-direction: row-reverse; /* Cambia si deseas un layout diferente */
     align-items: center; /* Centra el contenido dentro de .cuadro-dragon */
@@ -62,6 +63,9 @@ html, body {
     
 }
 
+.logo{
+    margin-top: -50px;
+}
 .parrafo {
     width: 100%;
     font-size: 1.8rem;

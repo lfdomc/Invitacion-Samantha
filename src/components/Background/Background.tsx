@@ -28,7 +28,7 @@ export default function Background() {
         <ButtonComponent/>
         <img src={dragoImage} className='dragon' alt="dragon" />
         </section>
-        <img src={logoImage} className='dragon' alt="dragon" />
+        <img src={logoImage} className='logo' alt="dragon" />
     
     </div>
 
