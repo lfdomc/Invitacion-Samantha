@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import  './Header.css'
 import imageMenu from './image/menu-blanco.png'
-import headerMenu from './image/header.png'
+
  
 export const Header = () => {
 
