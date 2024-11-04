@@ -2,12 +2,11 @@
     background-color: black;
     background-image: url("/src/assets/fondo.jpg");
     background-size: cover;
-    
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 5px double black;
-    padding: 2rem;
+    
+    
 }
 
 .mulan22 {
@@ -38,6 +37,11 @@
     padding: 1rem;
 }
 
+¨.parrafo-link{
+    border-color: black;
+  border-width: 5px;
+  border-style: dashed;
+}
 /* Media Queries */
 @media screen and (max-width: 1412px) {
     .title {
