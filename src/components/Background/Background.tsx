@@ -1,5 +1,5 @@
 import './Background.css';
-import mulanImage from './mulan222.png';
+import mulanImage from './image/mulan222.png';
 
 export default function Background() {
   return (

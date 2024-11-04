@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import  './Header.css'
+import imageMenu from './image/menu-blanco.png'
 
 export const Header = () => {
 
@@ -16,7 +17,7 @@ export const Header = () => {
                 <button 
                     onClick={toggleMenu}
                     className='Header-button'>
-                    <img src="src\assets\menu-blanco.png" className='Header-svg' alt="menu" />
+                    <img src={imageMenu} className='Header-svg' alt="menu" />
 
                 </button>
                 <h1 className="Header-h1">
