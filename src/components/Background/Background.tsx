@@ -4,6 +4,7 @@ import mulanImage from './image/mulan33.png';
 import dragoImage from './image/dragon.png'
 import grilloImage from './image/grillo.png'
 import logoImage from './image/nombre.png'
+import divisionImage from './image/division.png'
 
 export default function Background() {
   return (
@@ -22,7 +23,7 @@ export default function Background() {
       </section>
 
       </section>
-      
+      <img src={divisionImage} className='division' alt="grillo" />
         <section className='cuadro-dragon'>
         <img src={grilloImage} className='grillo' alt="grillo" />
         <ButtonComponent/>

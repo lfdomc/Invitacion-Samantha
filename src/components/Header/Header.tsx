@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import  './Header.css'
 import imageMenu from './image/menu-blanco.png'
-
+import headerMenu from './image/header.png'
  
 export const Header = () => {
 
@@ -23,7 +23,7 @@ export const Header = () => {
                 </button>
                 
                 <h1 className="Header-h1">
-                <a href="#" className='Header-a'> Fiesta 8 de Diciembre 2024</a>
+                <a href="#" className='Header-a'> </a>
                 </h1>
                 
                 

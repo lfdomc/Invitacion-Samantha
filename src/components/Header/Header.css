@@ -13,13 +13,16 @@
 .Header-h1{
     color: white;
     font-size: xx-large;
-    
-
 }
 
+.header-image{
+    
+    margin-bottom: 100;
+    
+}
 .Header-a{
     color: white;
-    width: 10%;
+    width: 100%;
 }
 .Header-icon{
     color: white;
