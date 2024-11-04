@@ -60,6 +60,16 @@ html, body {
     padding-top: 1rem;
     text-align: center;
 }
+.parrafo4 {
+    width: 100%;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(196, 132, 132);
+    padding-top: 1rem;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgb(68, 155, 226);
+}
 
 .title {
     width: 100%;
@@ -68,6 +78,8 @@ html, body {
     text-align: center;
     text-shadow: 1px 1px 2px rgb(196, 132, 132);
     padding: 1rem;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgb(158, 16, 171);
 }
 
 .fecha {
@@ -77,6 +89,11 @@ html, body {
     text-shadow: 1px 1px 2px rgb(196, 132, 132);
     padding-top: 1rem;
     text-align: center;
+    text-decoration: underline wavy rgb(215, 28, 171);
+    padding-bottom: 1rem;
+    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: rgb(158, 16, 171);
+   
 }
 
 /* Media Queries */
