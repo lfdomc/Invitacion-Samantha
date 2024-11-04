@@ -184,6 +184,15 @@ html, body {
         padding-top: 1rem;
         text-align: center;
     }
+    .fecha {
+        font-weight: bold;
+        width: 100%;
+        font-size: 2.8rem;
+        text-shadow: 1px 1px 2px rgb(196, 132, 132);
+        padding-top: 1rem;
+        text-align: center;
+        padding-bottom: 1rem;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -196,10 +205,19 @@ html, body {
     }
     .parrafotext{
         width: 100%;
-        font-size: 1.3rem;
+        font-size: 0.8rem;
         font-weight: bold;
         text-shadow: 1px 1px 2px rgb(196, 132, 132);
         padding-top: 1rem;
         text-align: center;
     }
+    .fecha {
+        font-weight: bold;
+        width: 100%;
+        font-size: 3rem;
+        text-shadow: 1px 1px 2px rgb(196, 132, 132);
+        padding-top: 1rem;
+        text-align: center;
+        padding-bottom: 1rem;
+}
 }
