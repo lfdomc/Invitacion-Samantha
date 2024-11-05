@@ -1,0 +1,35 @@
+.cuadro1 {
+    transition: transform 0.5s ease; /* Añade una transición para el zoom */
+  }
+  
+  .cuadro1.zoomed {
+    transform: scale(0.95); /* Ajusta el nivel de zoom deseado */
+   
+
+  }
+  .mulan22{
+    transition: transform 0.5s ease; /* Añade una transición para el zoom */
+  }
+  
+ .mulan22.zoomed{
+        transform: scale(1.2); /* Ajusta el nivel de zoom deseado */
+  }
+
+  .fecha{
+    transition: transform 0.5s ease; /* Añade una transición para el zoom */
+
+  }
+  .fecha.zoomed{
+    transform: scale(1.2); /* Ajusta el nivel de zoom deseado */
+
+  }
+
+  .dragon{
+    transition: transform 0.5s ease; /* Añade una transición para el zoom */
+  }
+  .dragon.zoomed{
+    opacity: 1;
+    transform: scale(1.5);
+    transform: scale(1.5); /* Aumenta el tamaño de la imagen al 150% */
+    width: 100%;
+  }

@@ -41,6 +41,7 @@ html, body {
      /* Espacio entre los elementos dentro de .body */
 }
 
+
 .mulan22 {
     max-width: 50%;
     padding-top: 2rem;
@@ -50,6 +51,8 @@ html, body {
     margin-right: -45px;
     max-width: 33%;
     padding-top: 2rem;
+    width: 20%; /* Tamaño inicial pequeño */
+    transition: transform 1s ease; /* Transición lenta de 1 segundo */
 }
 .grillo{
     margin-left: -50px;
@@ -63,7 +66,7 @@ html, body {
     flex-direction: row-reverse; /* Cambia si deseas un layout diferente */
     align-items: center; /* Centra el contenido dentro de .cuadro-dragon */
     justify-content: center; /* Centra el contenido en el eje horizontal */
-    max-width: 100%;
+    width: 100%;
     border: 5rem;
     
 }
