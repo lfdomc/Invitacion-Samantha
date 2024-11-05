@@ -1,3 +1,13 @@
+@keyframes rotateEffect {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
 .cuadro1 {
     transition: transform 0.5s ease; /* Añade una transición para el zoom */
   }
@@ -29,7 +39,16 @@
   }
   .dragon.zoomed{
     opacity: 1;
+   
     transform: scale(1.5);
     transform: scale(1.5); /* Aumenta el tamaño de la imagen al 150% */
     width: 100%;
+  }
+
+  .grillo {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .grillo.zoomed {
+    transform: scale(0.9);
   }

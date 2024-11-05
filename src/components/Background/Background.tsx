@@ -1,4 +1,3 @@
-
 import ButtonComponent from '../ButtonMaps/Button';
 import './Background.css';
 import mulanImage from './image/mulan33.png';
@@ -9,55 +8,39 @@ import divisionImage from './image/division.png';
 import "./ZoomCounter.css";
 import { useEffect, useState } from 'react';
 
-
 export default function Background() {
-  // Estado para manejar el efecto de zoom
   const [isZoomed, setIsZoomed] = useState(false);
-
-  useEffect(() => {
-    // Temporizador de 4 segundos
-    const timer = setTimeout(() => {
-      setIsZoomed(true);
-    }, 1500);
-
-    // Limpiar el temporizador al desmontar el componente
-    return () => clearTimeout(timer);
-  }, []);
-
-  
   const [isZoomed2, setIsZoomed2] = useState(false);
-
-  useEffect(() => {
-    // Temporizador de 4 segundos
-    const timer = setTimeout(() => {
-      setIsZoomed2(true);
-    }, 1950);
-
-    // Limpiar el temporizador al desmontar el componente
-    return () => clearTimeout(timer);
-  }, []);
-
   const [isZoomed3, setIsZoomed3] = useState(false);
 
   useEffect(() => {
-    // Temporizador de 4 segundos
-    const timer = setTimeout(() => {
-      setIsZoomed3(true);
-    }, 2050);
-
-    // Limpiar el temporizador al desmontar el componente
+    const timer = setTimeout(() => setIsZoomed(true), 1500);
     return () => clearTimeout(timer);
   }, []);
 
+  useEffect(() => {
+    const timer = setTimeout(() => setIsZoomed2(true), 1950);
+    return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setIsZoomed3(true), 2050);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
-
-
     <div className='body-total'>
+      <div className="falling-leaves">
+        {/* Puedes agregar más hojas aquí si lo deseas */}
+        <div className="leaf"></div>
+        <div className="leaf"></div>
+        <div className="leaf"></div>
+        <div className="leaf"></div>
+        <div className="leaf"></div>
+      </div>
+      
       <section className="body">
-        <img src={mulanImage} className= {`mulan22 ${isZoomed ? 'zoomed' : ''}`} alt="mulan" />
-
-        {/* Aplicar clase de zoom después de 4 segundos */}
+        <img src={mulanImage} className={`mulan22 ${isZoomed ? 'zoomed' : ''}`} alt="mulan" />
         <section className={`cuadro1 ${isZoomed ? 'zoomed' : ''}`}>
           <p className='parrafo1'>Los invitamos a celebrar el cumpleaños de:</p>
           <p className='fecha'>7 Años</p>
